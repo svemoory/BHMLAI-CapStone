@@ -7,13 +7,13 @@ Surekha Vemoory
 
 ### Executive summary
 
-#### Rationale
+### Rationale
 
 In this ever-changing landscape of real estate market, it is very difficult to navigate without a proper set of services and tools. As a technology company that serves agents/brokers across various California bay Area counties and provides them with listing information, services and training to succeed. But how do we target these trainings, tools and services to the set of subscribers who need them the most? 
 
 Identifying the missing factors that can contribute to successful transactions can help us invest and align our tools, services, and training to appropriate subscribers, which can encourage them to extend their subscription.
 
-#### Research Question
+### Research Question
 
 What are the different characteristics that make a Real Estate Agent successful?
 
@@ -21,7 +21,7 @@ Can we predict how successful a real estate agent is going to be given a set of 
 
 What are the most effective factors of a listing that lead to the lowest Days on Market or faster Sale? 
 
-#### Data Sources
+### Data Sources
 
 In order to answer the research questions, 2 different datasets have been used from local MLS Data from year 2022. The first dataset consists of Agent profile info with features specific to around 18,000 agents in various California counties.
 
@@ -88,13 +88,13 @@ FireplaceYN
 PoolYN
 NewConstructionYN
 ```
-#### Methodology
+### Methodology
 Various Regression Techniques like Linear, Lasso, Ridge and Ensemble 
 
-#### Results
+### Results
 What did your research find?
 
-#### Outline of project
+### Outline of project
 
 [AgentClassification_JupyterNotebook](https://github.com/svemoory/BHMLAI-CapStone/blob/main/AgentClassification.ipynb)
 [ListingRegression_JupyterNotebook](https://github.com/svemoory/BHMLAI-CapStone/blob/main/ListingRegression.ipynb)
@@ -103,6 +103,6 @@ What did your research find?
 
 
 
-##### Contact and Further Information
+### Contact and Further Information
 Surekha Vemoory 
 Email: surekha.vemoory@gmail.com
