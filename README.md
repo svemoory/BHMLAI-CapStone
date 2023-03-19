@@ -2,10 +2,10 @@
 
 Use machine learning models to identify different characteristics that make a Real Estate Agent successful.
 
-**Author**
+###Author
 Surekha Vemoory
 
-#### Executive summary
+### Executive summary
 
 #### Rationale
 
@@ -26,7 +26,7 @@ What are the most effective factors of a listing that lead to the lowest Days on
 In order to answer the research questions, 2 different datasets have been used from local MLS Data from year 2022. The first dataset consists of Agent profile info with features specific to around 18,000 agents in various California counties.
 
 1. Agent Info - For Classification
-
+```
 TotalSales - (Numeric)Number of transactions in the last year  
 saleVolume -  (Numeric) Total volumes of Sale for all transactions
 License    - Real Estate License Number    
@@ -48,11 +48,11 @@ PlanType              Subscription Plantype
 NumberofContacts      Number of contacts (leads) in Matrix
 Photo                y/n If Profile includes photo
 TopAgent   - y/n Classified as the top 20% list of Agents 
-
+```
 The second dataset consists of various features of listings from the last 10 years (initially) and 5 years (filtered on hot months) from MLSData
 
 2. Listing Info - For Regression
-
+```
 SaleoverListPrice    % Sale over list price
 ListPrice    
 SalePrice    
@@ -87,7 +87,7 @@ HOAExistYN
 FireplaceYN
 PoolYN
 NewConstructionYN
-
+```
 #### Methodology
 Various Regression Techniques like Linear, Lasso, Ridge and Ensemble 
 
@@ -96,9 +96,11 @@ What did your research find?
 
 #### Outline of project
 
-- [Link to notebook 1]()
-- [Link to notebook 2]()
-- [Link to notebook 3]()
+[AgentClassification_JupyterNotebook](https://github.com/svemoory/BHMLAI-CapStone/blob/main/AgentClassification.ipynb)
+[ListingRegression_JupyterNotebook](https://github.com/svemoory/BHMLAI-CapStone/blob/main/ListingRegression.ipynb)
+[ListingRegressionHotMonths_JupyterNotebook](https://github.com/svemoory/BHMLAI-CapStone/blob/main/ListingRegressionHotMonths.ipynb)
+
+
 
 
 ##### Contact and Further Information
