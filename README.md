@@ -2,7 +2,7 @@
 
 Use machine learning models to identify different characteristics that make a Real Estate Agent successful.
 
-###Author
+### Author
 Surekha Vemoory
 
 ### Executive summary
@@ -97,11 +97,10 @@ What did your research find?
 ### Outline of project
 
 [AgentClassification_JupyterNotebook](https://github.com/svemoory/BHMLAI-CapStone/blob/main/AgentClassification.ipynb)
+
 [ListingRegression_JupyterNotebook](https://github.com/svemoory/BHMLAI-CapStone/blob/main/ListingRegression.ipynb)
+
 [ListingRegressionHotMonths_JupyterNotebook](https://github.com/svemoory/BHMLAI-CapStone/blob/main/ListingRegressionHotMonths.ipynb)
-
-
-
 
 ### Contact and Further Information
 Surekha Vemoory 
