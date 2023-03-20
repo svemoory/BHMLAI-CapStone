@@ -89,7 +89,30 @@ PoolYN
 NewConstructionYN
 ```
 ### Methodology
-Various Regression Techniques like Linear, Lasso, Ridge and Ensemble 
+
+To frame the task, a standard process in industry for data projects called CRISP-DM is followed. The framework has multiple phases.
+![image](https://user-images.githubusercontent.com/28323151/226245695-e85daf82-4926-452f-a708-be375bfcaa9f.png)
+
+Business Understanding - This initial phase focuses on understanding the project objectives and requirements from a
+business perspective, and then converting this knowledge into identifying the key objectives. 
+
+Data Understanding - In this phase initial data is collected and activities in order to get familiar with the data and to identify data
+quality problems are performed.
+
+Data Preparation - The data preparation phase covers all activities to construct the final dataset (data that will be
+fed into the modeling tool(s)) from the initial raw data. Outliers are identified and eliminated and various features are transformed and scaled.
+
+Modeling - In this phase, various modeling techniques are selected and applied, and their parameters are
+calibrated to optimal values.
+
+For Classification problem on the agent info dataset, various modeling techniques have been used Logistic Regression, K Nearest Neighbor,
+Decision Tree, and Support Vector Machine 
+
+For Regression problem on the listing dataset, the following modeling techniques have been used Linear Regression, Ridge Regreesion, TransformedTargetRegressor, Random Forest. 
+
+Evaluation - During this phase, one or more models that appear to have high quality, were analyzed and Gridsearch technique was used to select optimal hyperparameteres to tune the models furter. Polynomial Features were used along with Principal Component Analysis to pick the important features that effects the target variable. In some cases ensemble techniques such as Voting Classifier and Gradient Boosting were used to achieve better model accuracy.
+
+Deployment - The results from the analysis are summarized in a report that can be used by the business make predictions and understand the missing features that can further produce useful results.
 
 ### Results
 What did your research find?
