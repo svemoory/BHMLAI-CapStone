@@ -139,6 +139,8 @@ A comparison of all model with tuned parameters and their respective ROCAUC (rec
 ![image](https://user-images.githubusercontent.com/28323151/226288320-0a29b08d-b360-4542-ad38-69c840587164.png)
 
 ![image](https://user-images.githubusercontent.com/28323151/226287851-c4b9dd79-dd9d-4cd1-8453-bdb13243d591.png)
+![image](https://user-images.githubusercontent.com/28323151/226289413-e4520d95-17a9-4c39-88a6-ab5643303b4e.png)
+
 
 ### Results (Listing Regression)
 
