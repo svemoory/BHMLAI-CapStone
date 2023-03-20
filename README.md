@@ -7,7 +7,7 @@ Surekha Vemoory
 
 ### Executive summary
 
-The California Bay Area has one of the most competitive real estate markets in the United States with over 200k+ real estate agents. As a real estate technology company, we are responsible for providing various listing tools and services to our subscribers. We also offer statistical data and trainings on various subject to help our agents and brokers in the field. 
+The California Bay Area is among one of the most competitive real estate markets in the United States with over 200k+ real estate agents. As a real estate technology company, we are responsible for providing various listing tools and services to our subscribers. We also offer statistical data and trainings on various subject to help our agents and brokers in the field. 
 
 But can we predict how successful a real estate agent is going to be, by learning the traits of Top Agents? If we can identify the missing features of an agent, and can extend our services and trainings to better equip our subscribers. With the power of Machine Learning techniques, it is possible to analyze, regress, and classify large amounts of data through modeling and important features can be identified, and predictions can be made. There are two different angles to my analysis.
 
