@@ -114,8 +114,35 @@ Evaluation - During this phase, one or more models that appear to have high qual
 
 Deployment - The results from the analysis are summarized in a report that can be used by the business make predictions and understand the missing features that can further produce useful results.
 
-### Results
-What did your research find?
+### Results (Agent Classification)
+
+The Agent Profile dataset has extremely imbalanced target variable. The heatmap of the various features was plotted to visualize correlation among various features.
+![image](https://user-images.githubusercontent.com/28323151/226283319-dcce019b-e30e-42f5-bfaa-5b0c448e972b.png)
+![image](https://user-images.githubusercontent.com/28323151/226284062-c4eba45a-8600-4118-a853-379f57974259.png)
+Most of the agents are serving the Santa Clara county
+![image](https://user-images.githubusercontent.com/28323151/226284436-92115367-5f07-4c42-a8e6-f67c5007d752.png)
+
+The initial results produced by various classification model with default values, indicate Decision Tree to be the best model with training set but LOgistic Regression performed better on the test set
+
+![image](https://user-images.githubusercontent.com/28323151/226286072-411a4ee6-a85a-4583-a39b-a48bc6fca9e0.png)
+
+After tuning the various classifiers using gridsearch, KNN performed better with ROCAUC score of 72. The best params are {'knn__n_neighbors': 9}
+
+Logistic regression train and test accuracy were not optimal but with ROCAUC score of 68 it was the second best model. The best params were {'lgr__C': 0.1, 'lgr__penalty': 'l1', 'lgr__solver': 'liblinear'}
+
+![image](https://user-images.githubusercontent.com/28323151/226286395-5efc19a5-1bd6-4d50-9c68-51c96e51e473.png)
+
+A comparison of all model with tuned parameters and their respective ROCAUC (receiver operating characteristic curve) score is given below.
+
+![image](https://user-images.githubusercontent.com/28323151/226286672-684a0b2c-937b-471b-bc45-a2901424c588.png)
+
+![image](https://user-images.githubusercontent.com/28323151/226288320-0a29b08d-b360-4542-ad38-69c840587164.png)
+
+![image](https://user-images.githubusercontent.com/28323151/226287851-c4b9dd79-dd9d-4cd1-8453-bdb13243d591.png)
+
+### Results (Listing Regression)
+
+
 
 ### Outline of project
 
