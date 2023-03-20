@@ -7,6 +7,22 @@ Surekha Vemoory
 
 ### Executive summary
 
+The California Bay Area has one of the most competitive real estate markets in the United States with over 200k+ real estate agents. As a real estate technology company, we are responsible for providing various listing tools and services to our subscribers. We also offer statistical data and trainings on various subject to help our agents and brokers in the field. 
+
+But can we predict how successful a real estate agent is going to be, by learning the traits of Top Agents? If we can identify the missing features of an agent, and can extend our services and trainings to better equip our subscribers. With the power of Machine Learning techniques, it is possible to analyze, regress, and classify large amounts of data through modeling and important features can be identified, and predictions can be made. There are two different angles to my analysis.
+
+* Study the Agent Profile -  With subscribers classified as Top Agent vs Not, various machine learning classification models were run to extract the most important features that makes them successful. The accuracy of the best model is 72 out of 100. Subscribers with annual plans, serving multiple zip codes and profiles set as public are some of the important features of Top Agent.
+
+* Study the Listing Data - Continuing with our business goal of helping agents succeed in the dynamic real estate market, another angle is to see what features in a home leads to faster sale. There are diverse set of features in a listing and its surroundings. If we extract the common features in the listings with least days on Market, it can help the agents project those features in their listings and also indicate potential hot markets based on geo location. The faster the home sells, agent can close more transactions. After running various models, highest accuracy was recorded as 37. The number of Open house is the most important feature that effects ow fast a home sells. Geographical location, living Sqft, age, and number of photos of the listing also has significant impact on the outcome.
+
+Although, The ML models help answer the research questions to some extent, the lower accuracy suggests a lot of missing data. Collecting more relevant data from brokers like indicating the number of times list was shared on social media, marketing & staging budgets, number of leads generated, team vs individual representation of Buying/Selling Agents may help improve accuracy of listing models.
+
+For agent profiling collecting the data related to Broker budget to train the Agents, the different types of tools and services that individual agents use, can substacially contribute to agent's success.
+
+To summarize, although there is no perfect recipee that can define success in this dynamic market where economical factors like interest rates, inflation, and recession can definitely have effect of real estate market. But we can definitely create successful models that can identify the best set of features out of the data we have available.
+
+If we can factor these as best practices and recommendations in our training and tools we offer, we can definitely help our subscriber's.
+
 ### Rationale
 
 In this ever-changing landscape of real estate market, it is very difficult to navigate without a proper set of services and tools. As a technology company that serves agents/brokers across various California bay Area counties and provides them with listing information, services and training to succeed. But how do we target these trainings, tools and services to the set of subscribers who need them the most? 
@@ -17,7 +33,7 @@ Identifying the missing factors that can contribute to successful transactions c
 
 What are the different characteristics that make a Real Estate Agent successful?
 
-Can we predict how successful a real estate agent is going to be given a set of his/her profile features
+Can we predict how successful a real estate agent is going to be given a set of his/her profile features?
 
 What are the most effective factors of a listing that lead to the lowest Days on Market or faster Sale? 
 
