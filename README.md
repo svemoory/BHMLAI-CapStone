@@ -130,6 +130,8 @@ After tuning the various classifiers using gridsearch, KNN performed better with
 
 Logistic regression train and test accuracy were not optimal but with ROCAUC score of 68 it was the second best model. The best params were {'lgr__C': 0.1, 'lgr__penalty': 'l1', 'lgr__solver': 'liblinear'}
 
+The confusion Matrix measures a model performance by visualizing the True and False predictions, and in this case it did produced good results.
+
 ![image](https://user-images.githubusercontent.com/28323151/226286395-5efc19a5-1bd6-4d50-9c68-51c96e51e473.png)
 
 A comparison of all model with tuned parameters and their respective ROCAUC (receiver operating characteristic curve) score is given below.
@@ -140,10 +142,35 @@ A comparison of all model with tuned parameters and their respective ROCAUC (rec
 
 ![image](https://user-images.githubusercontent.com/28323151/226287851-c4b9dd79-dd9d-4cd1-8453-bdb13243d591.png)
 ![image](https://user-images.githubusercontent.com/28323151/226289413-e4520d95-17a9-4c39-88a6-ab5643303b4e.png)
+![image](https://user-images.githubusercontent.com/28323151/226294930-0e27702d-3a0d-4400-894e-8c3b485bca37.png)
 
 
 ### Results (Listing Regression)
+ Full Dataset (125k listings)
+ 
+ The listings in this dataset were distributed among 5 california counties. Te sales are more prominent in the months of April, May and June
+ 
+ ![image](https://user-images.githubusercontent.com/28323151/226290838-dc2d5493-fc09-4778-a44a-1d2dbfa4d5e2.png)
+ 
+ ![image](https://user-images.githubusercontent.com/28323151/226290990-c64eb0ea-9156-4d97-9e7c-5ff7e5284604.png)
+ 
+ After removing the outliers and tuning various model, following observations were made
+ 
+ ![image](https://user-images.githubusercontent.com/28323151/226291270-76d8181f-a6bf-4cae-ad0f-bf911d8931fd.png)
+ 
+ Listing Dataset with Hot Months (78K listings)
+ 
+ This dataset contains listings from various california counties for the months of April, May, and June months
+ ![image](https://user-images.githubusercontent.com/28323151/226293119-30ecd620-578e-4073-b1f0-142027667f16.png)
+Since, the heatmap did not reveal much correlation among features, Polynomial Features were used for better model accuracy. 
+![image](https://user-images.githubusercontent.com/28323151/226293537-70ab8e99-5ecb-4fc4-bc82-508f30070555.png)
 
+Principal Component Ananlysis was performed to capture minimum features with maximum variance. In this case, around 76% variance is captured wit 9 principal features.
+![image](https://user-images.githubusercontent.com/28323151/226293804-72bfc755-28a1-4948-b676-7455e23b4cd2.png)
+
+![image](https://user-images.githubusercontent.com/28323151/226294163-fa28a7ba-ea7a-492f-96dd-318a28eb2ab2.png)
+
+![image](https://user-images.githubusercontent.com/28323151/226294281-0a40bde9-64a0-4ba4-8e84-f58b6e825647.png)
 
 
 ### Outline of project
